@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Jahid</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="contract-section">
+      <div class="contact-details">
+        <p><strong>Phone:</strong> +8801407120371</p>
+        <p><strong>Gmail:</strong> jahidhasan47099@gmail.com</p>
+        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100042079293455" target="_blank">MD Jahid Hasan</a></p>
+        
+      </div>
+    </div>
+  </header>
+
+  <section class="logo-section">
+    <div class="logo-upload">
+      <input type="file" id="logoUpload" accept="image/*" style="display: none;">
+      <label for="logoUpload" class="logo-upload-label">
+        <img id="logoImage" src="assets/placeholder-logo.png" alt="Upload Logo" class="logo">
+      </label>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome<br>To<br>MD Jahid Work</h1>
+      <p>Your one-stop solution for all your needs.</p>
+      <div class="hero-picture-upload">
+        <input type="file" id="heroPictureUpload" accept="image/*" style="display: none;">
+        <label for="heroPictureUpload" class="hero-picture-upload-label">
+          <img id="heroPictureImage" src="assets/placeholder-image.jpg" alt="Upload Picture" class="hero-picture">
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <h2>Categories</h2>
+    <div class="category-list">
+      <div class="category-item">Graphic Design</div>
+    </div>
+  </section>
+
+  <section class="gigs">
+    <h2>Featured Gigs</h2>
+    <div class="add-gig-form">
+      <input type="text" id="gigTitle" placeholder="Gig Title">
+      <input type="text" id="gigDescription" placeholder="Gig Description">
+      <input type="text" id="gigPrice" placeholder="Gig Price">
+      <input type="file" id="gigPhoto" accept="image/*">
+      <button id="addGigButton">Add Gig</button>
+    </div>
+    <div class="gig-list" id="gigList">
+      <!-- Gig items will be dynamically added here using JavaScript -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MD Jahid. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
